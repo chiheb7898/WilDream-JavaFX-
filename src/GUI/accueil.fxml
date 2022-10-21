@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="760" prefWidth="1280" styleClass="background-acceuil" stylesheets="@feed.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AccueilController">
+   <children>
+      <ImageView fitHeight="760.0" fitWidth="1351.0" layoutX="-35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Assets/96462.jpg" />
+         </image>
+      </ImageView>
+      <ColorPicker opacity="0.45" prefHeight="760.0" prefWidth="1317.0" style="-fx-background-color: black;">
+         <value>
+            <Color />
+         </value>
+      </ColorPicker>
+      <JFXButton layoutX="502.0" layoutY="514.0" onAction="#sign_in" stylesheets="@ajoutpost.css" text="Sign in" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="658.0" layoutY="514.0" onAction="#sign_up" stylesheets="@ajoutpost.css" text="Sign up" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="121.0" fitWidth="757.0" layoutX="279.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Assets/logowpng.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

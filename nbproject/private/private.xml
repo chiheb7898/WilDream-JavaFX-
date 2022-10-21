@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/WildreamFXMain.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/Entity/Comment.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/Services/CommentServices.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/AfficherPostController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/PostDetailsController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/ModifierlistutilisateursController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/nbproject/jfx-impl.xml</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/CONNECTION/DataSource.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/Services/PostServices.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/AfficherCommentController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/AjoutPostController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/Entity/CurrentUser.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/Entity/Post.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/EspaceAdminController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/AjouterUserController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/LoginController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/PostStatsController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/DashboardController.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/Services/JavaMailUtil.java</file>
+            <file>file:/C:/Users/chihe/Documents/NetBeansProjects/final1/src/GUI/ModifierprofileController.java</file>
+        </group>
+    </open-files>
+</project-private>

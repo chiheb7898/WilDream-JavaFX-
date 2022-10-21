@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="868.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PostDetailsController">
+   <children>
+      <VBox layoutX="114.0" layoutY="10.0" prefHeight="838.0" prefWidth="654.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="113.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <VBox fx:id="vbox1" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text fx:id="username" fill="#8a8989" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName" wrappingWidth="117.13671875">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Text fx:id="date" fill="#aeaaaa" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="83.13671875" />
+                  <Text fx:id="body" strokeType="OUTSIDE" strokeWidth="0.0" text="Body" wrappingWidth="604.13671875">
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox prefHeight="619.0" prefWidth="654.0">
+               <children>
+                  <Text fill="#686767" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments" wrappingWidth="175.357421875">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <AnchorPane prefHeight="131.0" prefWidth="654.0" stylesheets="@feed.css">
+                     <children>
+                        <VBox layoutX="-1.0" prefHeight="120.0" prefWidth="632.0">
+                           <children>
+                              <TextArea fx:id="cmntbody" prefHeight="56.0" prefWidth="532.0" promptText="Votre Commentaire ici ..." styleClass="rect-litleround">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="50.0" right="50.0" top="10.0" />
+                                 </VBox.margin>
+                                 <stylesheets>
+                                    <URL value="@ajoutpost.css" />
+                                    <URL value="@feed.css" />
+                                 </stylesheets>
+                              </TextArea>
+                              <Button fx:id="addcmnt" mnemonicParsing="false" onAction="#AjoutCemmentaire" stylesheets="@ajoutpost.css" text="Commenter" textFill="WHITE">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" left="50.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <styleClass>
+                        <String fx:value="rect-litleround" />
+                        <String fx:value="transparant" />
+                     </styleClass>
+                  </AnchorPane>
+                  <ScrollPane prefHeight="432.0" prefWidth="654.0" styleClass="transparant" stylesheets="@feed.css">
+                     <content>
+                        <VBox fx:id="vbox" prefHeight="424.0" prefWidth="635.0" />
+                     </content>
+                  </ScrollPane>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

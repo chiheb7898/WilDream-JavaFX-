@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="main" prefHeight="260.0" prefWidth="384.0" stylesheets="@feed.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AfficherPostController">
+   <children>
+      <VBox fx:id="vbox" prefHeight="412.0" prefWidth="473.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="245.0">
+               <children>
+                  <VBox prefHeight="0.0" prefWidth="187.0">
+                     <children>
+                        <Label fx:id="username" prefHeight="17.0" prefWidth="147.0" text="User Name" textFill="#a4a2a2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="date" fill="#a49e9e" strokeType="OUTSIDE" strokeWidth="0.0" text="22/04/2021 03:02" wrappingWidth="186.13671875">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <Button alignment="TOP_RIGHT" contentDisplay="TOP" mnemonicParsing="false" onAction="#deletepost" prefHeight="3.0" prefWidth="28.0" styleClass="transparant" stylesheets="@feed.css">
+                     <graphic>
+                        <FontAwesomeIconView fx:id="deletebtn" fill="#b5b4b4" glyphName="CLOSE" size="15" styleClass="delete" />
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="150.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Text fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" text="Title" wrappingWidth="345.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="body" fill="#7c7c7c" strokeType="OUTSIDE" strokeWidth="0.0" text="Body" wrappingWidth="341.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="vp" mnemonicParsing="false" onAction="#voirPlus" stylesheets="@feed.css" text="voir plus..." textFill="#d3d1d1">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="transparant" />
+                  <String fx:value="voirplus" />
+               </styleClass></Button>
+            <HBox prefHeight="25.0" prefWidth="410.0">
+               <children>
+                  <Button mnemonicParsing="false" styleClass="transparant" stylesheets="@dashboard.css" textFill="#797575">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="COMMENT" size="17" />
+                     </graphic>
+                  </Button>
+                  <Label fx:id="nbcmnts" prefHeight="29.0" prefWidth="28.0" text="15k">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="likebtn" mnemonicParsing="false" onAction="#like" styleClass="transparant" stylesheets="@feed.css">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HEART" size="17" styleClass="likebtn" />
+                     </graphic>
+                  </Button>
+                  <Label fx:id="nblikes" prefHeight="25.0" prefWidth="41.0" text="166k">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+   <styleClass>
+      <String fx:value="whitbackground" />
+      <String fx:value="shadow" />
+      <String fx:value="rect-round" />
+   </styleClass>
+</AnchorPane>

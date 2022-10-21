@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="760" prefWidth="1280" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EspaceClientController">
+   <children>
+      <MediaView fx:id="videomain" fitHeight="200.0" fitWidth="200.0" />
+      <BorderPane fx:id="borderpane" layoutX="-7.0" layoutY="-7.0" prefHeight="791.0" prefWidth="1297.0">
+         <left>
+            <VBox fx:id="vbox1" prefHeight="760.0" prefWidth="328.0" style="-fx-background-color: #1b1b1b;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane fx:id="mainpane1" prefHeight="199.0" prefWidth="328.0">
+                     <children>
+                        <ImageView fx:id="logo" fitHeight="35.0" fitWidth="200.0" layoutX="64.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/logowpng.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Button fx:id="homepage" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#homepage" prefHeight="63.0" prefWidth="334.0" stylesheets="@ajoutpost.css" text="Home Page" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="#fffdfd" glyphName="HOME" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnreservation" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#mesreservation" prefHeight="63.0" prefWidth="331.0" stylesheets="@ajoutpost.css" text="Reservations" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="HOTEL" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnmesevenements" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#mesevenements" prefHeight="63.0" prefWidth="333.0" stylesheets="@ajoutpost.css" text="Events" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="CALENDAR" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btncompte" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#profile" prefHeight="63.0" prefWidth="333.0" stylesheets="@ajoutpost.css" text="Personal Profile" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnoffre" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#listposts" prefHeight="63.0" prefWidth="333.0" stylesheets="@ajoutpost.css" text="Feed" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="GLOBE" size="20" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnlogout" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#Logout" prefHeight="63.0" prefWidth="333.0" stylesheets="@ajoutpost.css" text="Logout" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="BACK" size="20" />
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

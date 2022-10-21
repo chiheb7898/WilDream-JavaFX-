@@ -1,0 +1,57 @@
+/*
+ * Empty Stylesheet file.
+ */
+.whitbackground{
+    -fx-background-color: #fff;
+}
+.mainFxmlClass {
+
+}
+.AnchorPane {
+    -fx-background-color: #8B92B0;
+}
+.primarycolor{
+    -fx-background-color: #F4F5F9;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.1),10,0,0,10);
+} 
+.rect-round{
+    -fx-background-radius:20;
+}
+.transparant{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.selected{
+    -fx-background-color: #F4F5F9;
+}
+.mouse-moved:hover{
+    -fx-background-color: #EFEFEF;
+}
+.delete:hover{
+    -fx-text-fill:red;
+}
+.rect-litleround{
+    -fx-background-radius:5;
+}
+.likebtn
+{
+    -fx-text-fill: grey;
+}
+.likebtn:hover
+{
+    -fx-text-fill: red;
+}
+.likebtn:active
+{
+    -fx-text-fill: red;
+}
+.voirplus:hover
+{
+    -fx-text-fill:#198754;
+}
+.default-color0.chart-bar { -fx-bar-fill: #198754; }
+.default-color1.chart-bar { -fx-bar-fill: #666; }
+.background-acceuil{
+    -fx-background-image: url("/GUI/Assets/96462.jpg");
+}
