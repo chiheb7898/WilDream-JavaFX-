@@ -21,9 +21,7 @@
 
 1. Open XAMMP control panel, then start `Apache` & `MySQL` services
 
-2. Import [hotel.sql](/hotel.sql) to import the database.
-
-    - [How to Import .sql file to Database](https://youtu.be/GHSis3KwnkM)
+2. Import [pidev.sql](/src/pidev.sql) to import the database.
 
 3. Run the Program using [Project.java](/src/project/Project.java).
 
@@ -33,7 +31,7 @@
 
 <div align="center">
   <h2>Overview</h2>
-<img src="/src/image/PIDEV.gif" alt= "image">
+<img src="/src/image/PIDEV_1.gif" alt= "image">
 </div>
 
 -----
