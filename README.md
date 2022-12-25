@@ -12,8 +12,6 @@
     
     - [Download and install Tutorial](https://youtu.be/XsdvQD_SDvw)
 2. [XAMMP](https://www.apachefriends.org/index.html) for MySQL server.
-  
-    - [Tutorial: How To Install](https://youtu.be/N43oVPkrTg8)
 3. [NetBeans IDE](https://netbeans.apache.org/)
 
 
