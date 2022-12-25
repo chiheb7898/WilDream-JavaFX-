@@ -29,14 +29,15 @@
 
 <div align="center">
   <h2>Overview</h2>
-<img src="/src/image/PIDEV1.gif" alt= "image">
+    <img src="/src/image/PIDEV1.gif" alt= "image">
+    <img src="/src/image/PIDEV2.gif" alt= "image">
 </div>
 
 -----
 
 <div align="center">
   <h2>Login</h2>
-<img src="/src/image/PIDEV2.gif" alt= "image">
+<img src="/src/image/PIDEV.gif" alt= "image">
 </div>
 
 -----
