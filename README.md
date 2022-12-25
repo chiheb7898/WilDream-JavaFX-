@@ -1,4 +1,4 @@
-# Hotel Management System - JavaFX 
+# WilDream SocialMedia App - JavaFX 
 
 <div align="center">
 <img src="/src/image/bg01.png" >
