@@ -33,7 +33,7 @@
 
 <div align="center">
   <h2>Overview</h2>
-<img src="/src/image/PIDEV_1.gif" alt= "image">
+<img src="/src/image/PIDEV.gif" alt= "image">
 </div>
 
 -----
