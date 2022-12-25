@@ -29,8 +29,7 @@
 
 <div align="center">
   <h2>Overview</h2>
-<img src="https://gfycat.com/rectangularmaturegoa" alt= "image">
-![Alt Text](/src/image/PIDEV1.gif)
+<img src="/src/image/PIDEV1.gif" alt= "image">
 </div>
 
 -----
