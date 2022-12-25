@@ -21,7 +21,7 @@
 
 2. Import [pidev.sql](/src/pidev.sql) to import the database.
 
-3. Run the Program using [Project.java](/src/project/Project.java).
+3. Run the Program using [WildreamFXMain.java](/src/GUI/WildreamFXMain.java).
 
 
 ## Demos
